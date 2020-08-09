@@ -31,7 +31,7 @@ namespace API.Controllers
 			{
 				Date = DateTime.Now.AddDays(index),
 				TemperatureC = rng.Next(-20, 55),
-				Summary = "Test: " + Summaries[rng.Next(Summaries.Length)]
+				Summary = "Testing again: " + Summaries[rng.Next(Summaries.Length)]
 			})
 			.ToArray();
 		}
